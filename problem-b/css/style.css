@@ -8,24 +8,21 @@ table {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 1px solid #d3d3d3;
     background-color: #d3d3d3;
     border-collapse: collapse;
 }
 
-thead {
+th {
     height: 2rem;
     text-align: left;
     color:#1db954;
     background-color:#d3d3d3;
- }
-
-th {
-    background-color:#d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
     padding: 0.5em 
 }
-
+ 
 tr, td {
+    border-bottom: 1px solid #d3d3d3;
     padding: 0.5em;
 }
 
@@ -34,10 +31,23 @@ img {
     height: 100px;
 }
 
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/*
+tr:nth-child(2n+1) {
+    background-color: #eee;
+}
+
+or 
+
 tr:nth-child(odd) {
     background-color: #eee;
 }
 
-tr:hover {
+*/
+
+tbody:hover tr:hover {
     background-color: pink;
 }
