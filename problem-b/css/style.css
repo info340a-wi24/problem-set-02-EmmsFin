@@ -1,15 +1,8 @@
-.title {
+h1 {
     font-weight: 300;
     font-family: Roboto, sans-serif;
     text-align: center;
 }
-
-.heading {
-    height: 2rem;
-    text-align: left;
-    color:#1db954;
-    background-color:#d3d3d3;
- }
 
 table {
     width: 50%;
@@ -20,22 +13,31 @@ table {
     border-collapse: collapse;
 }
 
+thead {
+    height: 2rem;
+    text-align: left;
+    color:#1db954;
+    background-color:#d3d3d3;
+ }
+
 th {
-    background-color:#d3d3d3; 
+    background-color:#d3d3d3;
+    padding: 0.5em 
 }
 
 tr, td {
     padding: 0.5em;
 }
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
 tr:nth-child(odd) {
     background-color: #eee;
 }
 
 tr:hover {
     background-color: pink;
-}
-
-img {
-    max-width: 100px;
-    max-height: 100px;
 }
