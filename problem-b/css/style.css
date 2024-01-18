@@ -1,0 +1,41 @@
+.title {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.heading {
+    height: 2rem;
+    text-align: left;
+    color:#1db954;
+    background-color:#d3d3d3;
+ }
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #d3d3d3;
+    border-collapse: collapse;
+}
+
+th {
+    background-color:#d3d3d3; 
+}
+
+tr, td {
+    padding: 0.5em;
+}
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: pink;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
