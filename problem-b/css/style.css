@@ -4,6 +4,18 @@ h1 {
     text-align: center;
 }
 
+/*
+// Part 1:
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eee;
+    border-collapse: collapse;
+}
+*/
+
 table {
     width: 50%;
     margin-left: auto;
@@ -35,17 +47,26 @@ tr:nth-child(even) {
     background-color: #eee;
 }
 
-/*
+/* 
+The code above passes the jest test but doesn't look like the example, the ones below all look correct but do not pass the test. Is there a method that looks correct and passes the test that I am missing? If not is passing the test more important than looking correct?
+
 tr:nth-child(2n+1) {
     background-color: #eee;
 }
 
-or 
+and 
 
 tr:nth-child(odd) {
     background-color: #eee;
 }
 
+and
+
+// part 2:
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
 */
 
 tbody:hover tr:hover {
